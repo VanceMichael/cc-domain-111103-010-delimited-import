@@ -1,0 +1,9 @@
+{
+  "filenames": [
+    "weekly.csv",
+    "weekly_renamed.csv"
+  ],
+  "first_seen": "2026-11-11T21:15:55.190525+00:00",
+  "last_seen": "2026-11-11T21:15:55.240742+00:00",
+  "source_digest": "sha256:5575d0c997aa286e89ba0ccfbd19f776f93dd4e65270f90570f2bedce9e8add0"
+}

@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "contract": {
+    "columns": [
+      "district",
+      "week",
+      "quantity"
+    ],
+    "delimiter": ",",
+    "encoding": "utf-8-sig",
+    "fingerprint": "84da63e86484d7580d91cfa4f112b1c7a6e58f1c6109ce0de13e3f260d24fbf9",
+    "name": "weekly",
+    "quotechar": "\"",
+    "quoting": "minimal",
+    "version": "1.0"
+  },
+  "counts": {
+    "accepted": 1,
+    "blank_lines": 0,
+    "comments": 0,
+    "data_records": 1,
+    "physical_lines": 2,
+    "rejected": 0,
+    "repeated_headers": 0
+  },
+  "created_at": "2026-11-11T21:15:55.208498+00:00",
+  "format": {
+    "expected_header": [
+      "district",
+      "week",
+      "quantity"
+    ],
+    "observed_header": [
+      "district",
+      "week",
+      "quantity"
+    ]
+  },
+  "issues": [],
+  "manifest_version": 1,
+  "published": true,
+  "rejections": {},
+  "run_id": "weekly-v1.0-84da63e86484",
+  "source": {
+    "bytes": 39,
+    "filenames": [
+      "bom.csv"
+    ],
+    "sha256": "1e868b830af3adc113cda64c7e1fd4305fd5ffb3ba5942bc905fd01c24793a0d"
+  },
+  "source_digest": "sha256:1e868b830af3adc113cda64c7e1fd4305fd5ffb3ba5942bc905fd01c24793a0d",
+  "status": "complete"
+}

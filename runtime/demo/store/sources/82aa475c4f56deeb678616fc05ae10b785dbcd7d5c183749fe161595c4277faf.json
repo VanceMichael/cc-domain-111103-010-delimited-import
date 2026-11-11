@@ -1,0 +1,8 @@
+{
+  "filenames": [
+    "supplier_empty.csv"
+  ],
+  "first_seen": "2026-11-11T21:15:55.234970+00:00",
+  "last_seen": "2026-11-11T21:15:55.234975+00:00",
+  "source_digest": "sha256:82aa475c4f56deeb678616fc05ae10b785dbcd7d5c183749fe161595c4277faf"
+}

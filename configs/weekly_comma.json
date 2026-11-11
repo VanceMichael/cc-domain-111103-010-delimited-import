@@ -1,0 +1,21 @@
+{
+  "name": "weekly",
+  "version": "1.0",
+  "delimiter": ",",
+  "encoding": "utf-8-sig",
+  "quotechar": "\"",
+  "quoting": "minimal",
+  "doublequote": true,
+  "escapechar": null,
+  "skipinitialspace": false,
+  "comment_prefixes": ["#"],
+  "columns": [
+    {"name": "district", "kind": "text", "required": true, "allow_empty": false},
+    {"name": "week", "kind": "integer", "required": true, "allow_empty": false},
+    {"name": "quantity", "kind": "number", "required": false, "allow_empty": true}
+  ],
+  "thousands_separator": ",",
+  "decimal_separator": ".",
+  "row_error_policy": "publish_valid",
+  "strip_header": true
+}

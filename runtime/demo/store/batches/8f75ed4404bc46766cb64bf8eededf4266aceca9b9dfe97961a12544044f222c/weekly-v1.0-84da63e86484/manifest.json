@@ -1,0 +1,63 @@
+{
+  "complete": false,
+  "contract": {
+    "columns": [
+      "district",
+      "week",
+      "quantity"
+    ],
+    "delimiter": ",",
+    "encoding": "utf-8-sig",
+    "fingerprint": "84da63e86484d7580d91cfa4f112b1c7a6e58f1c6109ce0de13e3f260d24fbf9",
+    "name": "weekly",
+    "quotechar": "\"",
+    "quoting": "minimal",
+    "version": "1.0"
+  },
+  "counts": {
+    "accepted": 1,
+    "blank_lines": 0,
+    "comments": 0,
+    "data_records": 2,
+    "physical_lines": 3,
+    "rejected": 1,
+    "repeated_headers": 0
+  },
+  "created_at": "2026-11-11T21:15:55.224682+00:00",
+  "format": {
+    "expected_header": [
+      "district",
+      "week",
+      "quantity"
+    ],
+    "observed_header": [
+      "district",
+      "week",
+      "quantity"
+    ]
+  },
+  "issues": [
+    {
+      "code": "truncated_quoted_field",
+      "line_end": 3,
+      "line_start": 3,
+      "raw_text": "河谷,46,\"1,20\n",
+      "reason": "文件在引号字段内结束，该记录不完整；文件已暂停发布"
+    }
+  ],
+  "manifest_version": 1,
+  "published": false,
+  "rejections": {
+    "truncated_quoted_field": 1
+  },
+  "run_id": "weekly-v1.0-84da63e86484",
+  "source": {
+    "bytes": 51,
+    "filenames": [
+      "truncated.csv"
+    ],
+    "sha256": "8f75ed4404bc46766cb64bf8eededf4266aceca9b9dfe97961a12544044f222c"
+  },
+  "source_digest": "sha256:8f75ed4404bc46766cb64bf8eededf4266aceca9b9dfe97961a12544044f222c",
+  "status": "incomplete"
+}

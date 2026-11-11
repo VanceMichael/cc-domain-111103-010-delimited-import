@@ -1,0 +1,8 @@
+{
+  "filenames": [
+    "single_byte_cp1252.csv"
+  ],
+  "first_seen": "2026-11-11T21:15:55.229980+00:00",
+  "last_seen": "2026-11-11T21:15:55.229984+00:00",
+  "source_digest": "sha256:db254199cc41a4c71986ba3a597f0d5dc54f20ffb809f3fcdf3f51ed65080318"
+}

@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "contract": {
+    "columns": [
+      "district",
+      "week",
+      "supplier",
+      "quantity"
+    ],
+    "delimiter": ",",
+    "encoding": "utf-8-sig",
+    "fingerprint": "097246b900badc2a4c795bced4a71ef344be2b6426afaa637dcac35112fb1755",
+    "name": "weekly_supplier",
+    "quotechar": "\"",
+    "quoting": "minimal",
+    "version": "1.0"
+  },
+  "counts": {
+    "accepted": 2,
+    "blank_lines": 0,
+    "comments": 0,
+    "data_records": 2,
+    "physical_lines": 3,
+    "rejected": 0,
+    "repeated_headers": 0
+  },
+  "created_at": "2026-11-11T21:15:55.237664+00:00",
+  "format": {
+    "expected_header": [
+      "district",
+      "week",
+      "supplier",
+      "quantity"
+    ],
+    "observed_header": [
+      "district",
+      "week",
+      "supplier",
+      "quantity"
+    ]
+  },
+  "issues": [],
+  "manifest_version": 1,
+  "published": true,
+  "rejections": {},
+  "run_id": "weekly_supplier-v1.0-097246b900ba",
+  "source": {
+    "bytes": 71,
+    "filenames": [
+      "supplier_empty.csv"
+    ],
+    "sha256": "82aa475c4f56deeb678616fc05ae10b785dbcd7d5c183749fe161595c4277faf"
+  },
+  "source_digest": "sha256:82aa475c4f56deeb678616fc05ae10b785dbcd7d5c183749fe161595c4277faf",
+  "status": "complete"
+}
